@@ -45,7 +45,6 @@ public static class FoodMenu
         else 
         {
             Console.WriteLine("Error! Please choose a valid option!", Color.Red);
-            Thread.Sleep(3000);
             Console.Clear();
             FoodMenu.Start(); 
         }
